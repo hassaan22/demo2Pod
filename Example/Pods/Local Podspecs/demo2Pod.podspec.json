@@ -21,7 +21,7 @@
   "source_files": "demo2Pod/Classes/**/*",
   "resource_bundles": {
     "demo2Pod": [
-      "demo2Pod/Assets.*/**/*"
+      "demo2Pod/Assets.bundle"
     ]
   }
 }
