@@ -16,6 +16,7 @@
 		6A4DE840D637B1A37BBF09E95746AA24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6C678A81A79BE41BD6B8BD2C24A1FD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		710B1582858A8EAFADED9DA829EBBEC4 /* demo2Pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E159611B617A5EE690479B238F35CA89 /* demo2Pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BFB410208FEDB200DF46C1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32FB6D3D12FE8E65BD02B996C90DE05E /* Assets.bundle */; };
 		8A36DED135CF04765879D20E778FA633 /* Pods-demo2Pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30447F75C846AD6789C002795325F09E /* Pods-demo2Pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D251AC9F44D1AD10D9FBC44E2D2AF9 /* Olive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E98185A69A55A2A01F3F06E71D6B8 /* Olive.swift */; };
 		BC9B6BAF1553BDE31A822BCBF381FAB7 /* Pods-demo2Pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF754BD0372308ECC26995555030A45 /* Pods-demo2Pod_Tests-dummy.m */; };
@@ -44,7 +45,7 @@
 		25F5C83D7118E821D462B71C62C36F00 /* Pods-demo2Pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demo2Pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C6E32F07C7C2B25A4059F4F7BBBC9B6 /* Pods-demo2Pod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo2Pod_Tests-resources.sh"; sourceTree = "<group>"; };
 		30447F75C846AD6789C002795325F09E /* Pods-demo2Pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demo2Pod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		32C506DFA769031119527E08D9F2F661 /* Pods-demo2Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demo2Pod_Tests.modulemap"; sourceTree = "<group>"; };
+		32C506DFA769031119527E08D9F2F661 /* Pods-demo2Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-demo2Pod_Tests.modulemap"; sourceTree = "<group>"; };
 		32FB6D3D12FE8E65BD02B996C90DE05E /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
 		3B66FE39F606B49C8AB6EB4A91B1F9A1 /* ResourceBundle-demo2Pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-demo2Pod-Info.plist"; sourceTree = "<group>"; };
 		3FF754BD0372308ECC26995555030A45 /* Pods-demo2Pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo2Pod_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -52,26 +53,26 @@
 		4E0E98185A69A55A2A01F3F06E71D6B8 /* Olive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Olive.swift; sourceTree = "<group>"; };
 		51F51D801981DD198A4A402AAF41C5A0 /* Pods-demo2Pod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo2Pod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5FEA3F8B61E9FE6772EB0C49B19B9798 /* Pods-demo2Pod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo2Pod_Example-dummy.m"; sourceTree = "<group>"; };
-		62542B7B04F322D1C20C55ECE740908D /* demo2Pod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = demo2Pod.bundle; path = demo2Pod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		62542B7B04F322D1C20C55ECE740908D /* demo2Pod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo2Pod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69570075AAF5F2F1A8D8464F66BDDF65 /* Pods_demo2Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_demo2Pod_Example.framework; path = "Pods-demo2Pod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69570075AAF5F2F1A8D8464F66BDDF65 /* Pods_demo2Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo2Pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707FC3FBB74C716CB708F03261C0B5A2 /* Pods-demo2Pod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo2Pod_Example-resources.sh"; sourceTree = "<group>"; };
 		7275A18C2B46500868ED85C337B3DD7E /* Pods-demo2Pod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo2Pod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		847BEC8134C018247FF180762C6BD5FE /* demo2Pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = demo2Pod.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A121BD7386D7115CEE61783E915C525E /* Pods-demo2Pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-demo2Pod_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A121BD7386D7115CEE61783E915C525E /* Pods-demo2Pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-demo2Pod_Example.modulemap"; sourceTree = "<group>"; };
 		ABC2C52B78868CE6089723965835BDB1 /* Pods-demo2Pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo2Pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF06A1F43B2BBF9873B23AF02FD27247 /* demo2Pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "demo2Pod-dummy.m"; sourceTree = "<group>"; };
-		C1CB3C77AE028C054B600D5D72C84F8D /* Pods_demo2Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_demo2Pod_Tests.framework; path = "Pods-demo2Pod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CB3C77AE028C054B600D5D72C84F8D /* Pods_demo2Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo2Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79610A2CF66E396D6DB5BBD25088E11 /* Pods-demo2Pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo2Pod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA4E2C81D370E3B4C5EEBE0A543FC45C /* demo2Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = demo2Pod.modulemap; sourceTree = "<group>"; };
+		CA4E2C81D370E3B4C5EEBE0A543FC45C /* demo2Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = demo2Pod.modulemap; sourceTree = "<group>"; };
 		D096A1897BF00D68CAFA70B036C38574 /* Olive+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Olive+UIColor.swift"; sourceTree = "<group>"; };
 		D9074C813C219948CCAC03E671228BB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAA88932221DBC209D0FCDEDEC516C9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E159611B617A5EE690479B238F35CA89 /* demo2Pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "demo2Pod-umbrella.h"; sourceTree = "<group>"; };
 		E218112F026A60FA4B1B29DEC5A42C56 /* Pods-demo2Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo2Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5C14754BF894DF864759236637BC9B1 /* Olive+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Olive+UIImage.swift"; sourceTree = "<group>"; };
-		E69FFBC689B21C36ED70F372CB4D9E44 /* demo2Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = demo2Pod.framework; path = demo2Pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69FFBC689B21C36ED70F372CB4D9E44 /* demo2Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = demo2Pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5948540A643730357EFD26724C148A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6D82AE21124FFCA9CFCDC1E601CB2C /* Pods-demo2Pod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demo2Pod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF9FAA18090A5AD296284A1B45015329 /* Pods-demo2Pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo2Pod_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -172,7 +173,6 @@
 			children = (
 				8601526A6C2AD3892D76F3DBDBBE5BD1 /* Classes */,
 			);
-			name = demo2Pod;
 			path = demo2Pod;
 			sourceTree = "<group>";
 		};
@@ -205,7 +205,6 @@
 				D096A1897BF00D68CAFA70B036C38574 /* Olive+UIColor.swift */,
 				E5C14754BF894DF864759236637BC9B1 /* Olive+UIImage.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -214,7 +213,6 @@
 			children = (
 				32FB6D3D12FE8E65BD02B996C90DE05E /* Assets.bundle */,
 			);
-			name = demo2Pod;
 			path = demo2Pod;
 			sourceTree = "<group>";
 		};
@@ -404,6 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BFB410208FEDB200DF46C1 /* Assets.bundle in Resources */,
 				2965ACA85827E11459A1AD01BC9CA143 /* demo2Pod.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
