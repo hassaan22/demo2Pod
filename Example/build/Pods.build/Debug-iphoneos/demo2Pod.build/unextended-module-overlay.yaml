@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/hassaan.shakeel/Desktop/TACOS/demo2Pod/Example/build/Debug-iphoneos/demo2Pod/demo2Pod.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/hassaan.shakeel/Desktop/TACOS/demo2Pod/Example/build/Pods.build/Debug-iphoneos/demo2Pod.build/unextended-module.modulemap',
+    }]
+  }]
+}

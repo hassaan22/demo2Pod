@@ -8,9 +8,8 @@ extension UIColor {
     }
     
     public class var babyImage : UIImage {
-        let bundle = Bundle(for: self.classForCoder())
-        let urlbaby = bundle.url(forResource: "Assets", withExtension: "bundle")
-        let imageBundle = Bundle(url:urlbaby!)
+        let bundleURL = Bundle.main.path(forResource: "Assets", ofType: "bundle")
+        let imageBundle = Bundle(url:bundleURL!)
         
         let path = imageBundle?.path(forResource: "icImportPhoto", ofType: "png")
         
@@ -21,7 +20,9 @@ extension UIColor {
     public class func bundledImage(named: String) -> UIImage? {
         let image = UIImage(named: named)
         if image == nil {
-            return UIImage(named: named, in:Bundle(for: OliveUI.classForCoder()), compatibleWith: nil)
+//            return UIImage(named: named, in:Bundle(for: OliveUI.classForCoder()), compatibleWith: nil)
+            return UIImage(named: named, in:Bundle.main, compatibleWith: nil)
+
         } // Replace MyBasePodClass with yours
         return image
     }
