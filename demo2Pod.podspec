@@ -32,10 +32,9 @@ DESC
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'demo2Pod/Classes/**/*'
-# s.resources = 'demo2Pod/Assets.bundle'
-  
+
   s.resource_bundles = {
-    'demo2Pod' => ['demo2Pod/Assets.*/**/*']
+    'demo2Pod' => ['demo2Pod/Assets.bundle']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

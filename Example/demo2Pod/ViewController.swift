@@ -4,7 +4,7 @@ import demo2Pod
 class ViewController: UIViewController {
 
     lazy var image : UIImage = {
-        let image = UIImage.bundledImage(named:"docusign_icon")
+        let image = UIImage.bundledImage(named:"docusign_logo")
         return image!
     }()
     
