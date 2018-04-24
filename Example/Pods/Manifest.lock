@@ -1,5 +1,5 @@
 PODS:
-  - demo2Pod (0.1.0)
+  - demo2Pod (0.1.2)
 
 DEPENDENCIES:
   - demo2Pod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  demo2Pod: 9ed81a7dd78aec49a793eb1f02bec6b8f1df8847
+  demo2Pod: e6daa1af42a8c7d5e6155c64357e3d6002976b04
 
 PODFILE CHECKSUM: 72fffd6234b89c2a8598268d625cbc6fa2da1c16
 

@@ -1,6 +1,6 @@
 {
   "name": "demo2Pod",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "This is my second try to create a cocoapod.",
   "description": "This is my second try at creating a pod. This should all work as expected.\nThis will include both code and assets.",
   "homepage": "https://github.com/hassaan22/demo2Pod",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hassaan22/demo2Pod.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
